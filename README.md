@@ -2,7 +2,16 @@
 
 Sitio estático multipágina para **Cerrajería El Prado**, cerrajería automotriz en San Pedro Sula, Honduras.
 
-> **Estado:** demo local terminada y revisada. No está publicada. No se ha contactado al cliente con este enlace.
+> **Estado:** sitio terminado y publicado en GitHub Pages. No se ha contactado al cliente con este enlace.
+
+## Publicación
+
+- **Enlace con dominio propio:** https://www.naturallhn.com/cerrajeria-el-prado/
+- **Alternativa en GitHub Pages:** https://qJulio.github.io/cerrajeria-el-prado/
+- **Repositorio:** https://github.com/qJulio/cerrajeria-el-prado
+- Rama `main`, GitHub Pages activo desde la raíz del repositorio, `.nojekyll` incluido.
+
+Las dos URLs sirven el mismo sitio. Si necesitas otro nombre de enlace, se puede renombrar el repositorio o configurar un dominio distinto.
 
 ## Datos confirmados
 
@@ -88,6 +97,7 @@ cerrajeria-el-prado-web/
 - Sin precios, montos ni promesas de disponibilidad no confirmadas en el texto visible.
 - Metadatos, favicon, `lang="es"`, viewport y descripciones presentes en todas las páginas.
 - Fuentes locales verificadas (7/7).
+- Verificado ya publicado: 5/5 páginas cargan sin errores de consola ni recursos rotos.
 
 Capturas en `previews/`: `desktop-*.png` y `mobile-*.png` para las cinco páginas.
 
