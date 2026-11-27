@@ -459,6 +459,35 @@ button {
   color: var(--signal);
 }
 
+.topbar__right {
+  justify-self: end;
+  display: inline-flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.topbar__social {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.topbar__social a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--steel-2);
+}
+
+.topbar__social a:hover {
+  color: var(--signal);
+}
+
+.topbar__social .icon {
+  width: 12px;
+  height: 12px;
+}
+
 /* ---------- Header ---------- */
 
 .site-header {
@@ -711,6 +740,28 @@ button {
 .mobile-menu__foot .btn {
   justify-self: start;
   margin-top: 4px;
+}
+
+.mobile-menu__social {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  margin-bottom: 2px;
+}
+
+.mobile-menu__foot .social-link {
+  width: 100%;
+  justify-content: center;
+  padding: 13px 8px;
+  border-color: var(--line-light-strong);
+  color: var(--bone);
+  font-size: 8px;
+}
+
+.mobile-menu__foot .social-link:hover {
+  background: var(--signal);
+  border-color: var(--signal);
+  color: var(--ink);
 }
 
 /* ---------- Progreso ---------- */
@@ -2552,6 +2603,77 @@ body.is-loaded .schematic__draw {
   background: var(--signal);
 }
 
+/* ---------- Menú de enlaces externos ---------- */
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.social-links--section {
+  margin-top: 18px;
+}
+
+.social-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 12px;
+  border: 1px solid var(--line);
+  background: transparent;
+  color: var(--ink);
+  font-family: var(--font-mono);
+  font-size: 9px;
+  line-height: 1;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  transition: background 0.2s ease, border-color 0.2s ease,
+    color 0.2s ease, transform 0.2s var(--ease);
+}
+
+.social-link .icon {
+  width: 14px;
+  height: 14px;
+}
+
+.social-link__arrow {
+  width: 12px;
+  height: 12px;
+  margin-left: 2px;
+  opacity: 0.5;
+}
+
+.social-link:hover {
+  background: var(--signal);
+  border-color: var(--signal);
+  color: var(--ink);
+  transform: translateY(-2px);
+}
+
+.social-link:hover .social-link__arrow {
+  opacity: 1;
+}
+
+.social-link:focus-visible {
+  outline: 2px solid var(--signal);
+  outline-offset: 2px;
+}
+
+.footer-brand .social-link {
+  border-color: var(--line-light-strong);
+  color: rgba(241, 237, 226, 0.78);
+}
+
+.footer-brand .social-link:hover {
+  background: var(--signal);
+  border-color: var(--signal);
+  color: var(--ink);
+}
+
+.contact-panel .social-link {
+  border-color: var(--line-strong);
+}
+
 .footer-bottom {
   display: flex;
   align-items: center;
@@ -2796,6 +2918,10 @@ body.is-loaded .schematic__draw {
 
   .topbar__phone {
     justify-self: end;
+  }
+
+  .topbar__social {
+    display: none;
   }
 
   .nav {

@@ -20,6 +20,8 @@ Las dos URLs sirven el mismo sitio. Si necesitas otro nombre de enlace, se puede
 - **Emergencias:** 24/7 con recargo. Cubren aperturas, reparaciones y clonaciones.
 - **Copias de llave:** solo en horario normal, no en emergencias.
 - **Base:** San Pedro Sula, zona 21104. Servicio dentro y fuera de la ciudad.
+- **Facebook:** https://www.facebook.com/p/cerrajeria-el-prado-100067910711453/
+- **Google Maps:** https://share.google/LXiDjFmackNgphoyg
 - **Precios:** no se publican en la web. Se confirman por WhatsApp según vehículo, llave y momento.
 
 ## Páginas
@@ -96,6 +98,7 @@ cerrajeria-el-prado-web/
 - Formulario probado: abre `wa.me/50498192313` con el mensaje multilínea correcto.
 - Sin precios, montos ni promesas de disponibilidad no confirmadas en el texto visible.
 - Metadatos, favicon, `lang="es"`, viewport y descripciones presentes en todas las páginas.
+- Facebook y Google Maps integrados con iconos propios en barra superior, menú móvil, pie de página, contacto y cobertura; abren en pestaña nueva.
 - Fuentes locales verificadas (7/7).
 - Verificado ya publicado: 5/5 páginas cargan sin errores de consola ni recursos rotos.
 
